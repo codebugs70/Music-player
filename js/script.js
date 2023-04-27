@@ -119,11 +119,12 @@ const SONG_DATA = [
     duration: "02:47",
   },
   {
-    title: "Girl of my dreams",
-    artist: "deadbroke",
-    image: "https://i.scdn.co/image/ab67616d0000b2732b4f378211192cd7ab97805e",
-    file: "Girl of my dreams.mp3",
-    duration: "02:39",
+    title: "By My Side",
+    artist: "SKIALEX",
+    image:
+      "https://cdna.artstation.com/p/assets/images/images/052/571/874/large/avetetsuya-studios-297579147-194868862968701-5117749540904313728-n.jpg?1660140544",
+    file: "By My Side.mp3",
+    duration: "03:22",
   },
   {
     title: "I'm not alright",

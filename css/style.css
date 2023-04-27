@@ -15,6 +15,7 @@
 .music-banner {
   width: 300px;
   height: 300px;
+  object-fit: cover;
   border-radius: 10px;
   transition: all 0.5s linear;
 }
