@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="./images/codebugs.jpg" type="image/x-icon" /> -->
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/5f219ec053.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link file css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <title>Tutorial</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="container">
+          <div class="header-container">
+            <a class="logo" href="#">MUSIC <span>MOODY</span></a>
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#" class="menu-link">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- CONTENT -->
+      <main>
+        <div class="container">
+          <div class="music">
+            <!-- ==================================== -->
+            <!-- MUSIC-INFO -->
+            <div class="music-info">
+              <div>
+                <img class="music-banner" src="" alt="" />
+              </div>
+              <span>
+                <h1 class="music-name"></h1>
+                <span class="music-artist"></span>
+              </span>
+            </div>
+            <!-- ==================================== -->
+            <!-- MUSIC-PLAYLIST -->
+            <ul class="music-playlist">
+              <!-- <li class="music-item">
+                <div class="music-item-left">
+                  <img
+                    src=""
+                    alt=""
+                  />
+                  <div class="music-item-info">
+                    <h1 class="music-item-name"></h1>
+                    <span class="music-item-artist"></span>
+                  </div>
+                </div>
+                <div class="music-item-right">
+                  <span class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                  </span>
+                  <span class="music-time">02:56</span>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="music-control-container">
+          <div class="footer-container">
+            <!-- =================================== -->
+            <!-- MUSIC_CONTROLLER_LEFT -->
+            <div class="footer-container-left">
+              <img
+                class="music-banner"
+                src="https://upload.wikimedia.org/wikipedia/en/1/1b/Joji_-_Nectar.png"
+                alt="song-img"
+              />
+              <div>
+                <h1 class="music-name">Demons</h1>
+                <span class="music-artist">Joji</span>
+              </div>
+            </div>
+            <!-- =================================== -->
+            <!-- MUSIC_CONTROLLER_MIDDLE -->
+            <div class="footer-container-middle">
+              <!-- ACTION -->
+              <div class="music-action">
+                <span class="icon-shuffle">
+                  <i class="fa-solid fa-shuffle"></i>
+                </span>
+                <span class="icon-prev">
+                  <i class="fa-solid fa-caret-left"></i>
+                </span>
+                <span class="icon-play">
+                  <i class="fa-solid fa-play"></i>
+                </span>
+                <span class="icon-next">
+                  <i class="fa-solid fa-caret-right"></i>
+                </span>
+                <span class="icon-repeat">
+                  <i class="fa-solid fa-repeat"></i>
+                </span>
+              </div>
+              <!-- DURATION -->
+              <div class="music-duration">
+                <span class="time-start">00:00</span>
+                <input
+                  class="progress-bar"
+                  value="0"
+                  min="0"
+                  max="100"
+                  type="range"
+                />
+                <span class="time-end">02:56</span>
+              </div>
+            </div>
+            <!-- =================================== -->
+            <!-- MUSIC_CONTROLLER_LEFT -->
+            <div class="footer-container-right">
+              <span class="icon-volume">
+                <i class="fa-solid fa-volume-high"></i>
+              </span>
+              <input
+                type="range"
+                value="100"
+                min="0"
+                max="100"
+                class="volume-bar"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- audio -->
+      <audio class="song-audio" src=""></audio>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
